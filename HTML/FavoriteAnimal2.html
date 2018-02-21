@@ -13,12 +13,20 @@
             body {
                 background:grey;
             }
+            #button-jumbotron {
+              background:lightgreen;
+              text-align:center;
+            }
             #top-title {
                 text-align: center;
-                background: lightgreen;
+                background:lightgreen;
+            }
+            #nav-bar {
+                text-align:center;
+                background:purple;
             }
             #collapse {
-                padding:5%;
+                padding:2.5%;
             text-align:center;
             background: orange;
             }
@@ -28,7 +36,6 @@
                 padding-right:10%;
                 padding-bottom:5%;
                 text-align:center;
-            }
             }
             #thumbnails {
                 text-align: justify;
@@ -60,9 +67,32 @@
         </style>
     </head>
     <body>
-        <div class="jumbotron" id="top-title">
-           <h1 class="display-3">Dachshund</h1>
-           <h1><small>Canis lupus familiaris</small></h1>
+        <div id="button-jumbotron">
+            <div id="buttons">
+                <a href="https://en.wikipedia.org/wiki/Dachshund" class="btn btn-info" role="button">Dachshund Wikipedia</a>
+                <a href="http://dogtime.com/dog-breeds/dachshund#/slide/1" class="btn btn-info" role="button">Dachshund Information</a>
+                <a href="http://www.yourpurebredpuppy.com/reviews/dachshunds.html" class="btn btn-info" role="button">Dachshund ups and downs</a>
+            </div>
+            <div class="jumbotron" id="top-title">
+               <h1 class="display-3">Dachshund</h1>
+               <h1><small>Canis lupus familiaris</small></h1>
+            </div>
+        </div>
+        <div id="nav-bar">
+            <nav class="navbar navbar-expand-sm bg-light">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://preview.c9users.io/mmulderink/ecs21718/HTML/table1.html?_c9_id=livepreview9&_c9_host=https://ide.c9.io">Tables 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://preview.c9users.io/mmulderink/ecs21718/HTML/practiceCSS.html?_c9_id=livepreview10&_c9_host=https://ide.c9.io">practiceCSS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://preview.c9users.io/mmulderink/ecs21718/HTML/FavoriteAnimal.html?_c9_id=livepreview11&_c9_host=https://ide.c9.io">Favorite Animal</a>
+                </li>
+              </ul>
+            </nav>
+        </div>
         </div>
         <div id="collapse">
             <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Information</button>
