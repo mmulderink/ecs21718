@@ -1,0 +1,22 @@
+body {
+    background-image: #05286B;
+    padding: 0.25%;
+}
+#jumbotron {
+    text-align: center;
+    background-color: lightgreen;
+}
+.row {
+    padding:2%;
+}
+img {
+    padding:4%;
+    text-align: center;
+    width:96%;
+}
+h1 {
+    text-align: center;
+}
+.alert {
+    text-align: center;
+}
