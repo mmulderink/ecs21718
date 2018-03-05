@@ -1,6 +1,10 @@
 body {
-    background-image: #05286B;
     padding: 0.25%;
+    background: #8ee4af;
+    font-family: 'Eczar', serif;
+}
+.navbar {
+    opacity: 0.6;
 }
 #jumbotron {
     text-align: center;
@@ -19,4 +23,13 @@ h1 {
 }
 .alert {
     text-align: center;
+}
+#top-ish {
+    background: #EDF5E1;
+    font-family: 'Nanum Pen Script', cursive;
+}
+#demo {
+    background: #379683; 
+    padding-left: 30%;
+    padding-right:30%;
 }
