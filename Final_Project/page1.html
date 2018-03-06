@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Snowboarding Gear</title>
+        <title>Snowboarding</title>
         <link rel="stylesheet" type="text/css" href="external.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,18 +11,33 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
         <style>
         body {
             text-align:center;
             background: #FFFF90;
             font-family: 'Eczar', serif;
         }
+        #text {
+            padding: 2%;
+            background: #379683;
+        }
+        #shred {
+            padding-left:10%;
+            padding-right:10%;
+            background: #379683;
+        }
+        #middle {
+            padding: 3%;
+            background: #EDF5E1;
+            font-family: 'Source Code Pro', monospace;
+        }
         </style>
         <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();   
         });
-</script>
+    </script>
     </head>
     <body>
         <div class="jumbotron" id="jumbotron">
@@ -45,16 +60,23 @@
                 </ul>
             </nav>
         </div>
-        <div class="container">
-            <a href="#" data-toggle="tooltip" title="Pranked!"><h1>Snowboarding (hover over)</h1></a>
+        <div id="middle">
+            <div class="container">
+                <a href="#" data-toggle="tooltip" title="Pranked!"><h1>Snowboarding (hover over)</h1></a>
+            </div>
+            <div class="container">
+                <a href="https://en.wikipedia.org/wiki/Snowboarding"
+                class="btn btn-info" role="button">Wikipedia</a>
+                <a href="https://www.snowboarder.com/"
+                class="btn btn-info" role="button">Snowboarding Magazine</a>
+            </div>
         </div>
-        <div class="container">
-            <a href="https://en.wikipedia.org/wiki/Snowboarding"
-            class="btn btn-info" role="button">Wikipedia</a>
-            <a href="https://www.snowboarder.com/"
-            class="btn btn-info" role="button">Snowboarding Magazine</a>
-        </div>
-        <img src="https://www.serfaus-fiss-ladis.at/website/var/tmp/image-thumbnails/20000/29172/thumb__lightbox/snowboard2_1.jpeg"
+        <br/>
+        <h4 id="text">I have snowboarded and skied for about 5 years and love it every time.
+        The fresh snow is great.
+        Also, the falling down is the major downside as it isn't as fun.</h4>
+        <br/>
+        <img id="shred" src="https://www.serfaus-fiss-ladis.at/website/var/tmp/image-thumbnails/20000/29172/thumb__lightbox/snowboard2_1.jpeg"
         class="rounded-circle" alt="Cinque Terre">
     </body>
 </html>
