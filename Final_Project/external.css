@@ -1,7 +1,7 @@
 body {
     padding: 0.25%;
     background: #8ee4af;
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Eczar', serif;
 }
 .navbar {
     opacity: 0.6;
@@ -9,6 +9,7 @@ body {
 #jumbotron {
     text-align: center;
     background-color: lightgreen;
+    font-family: 'Bowlby One SC', cursive;
 }
 .row {
     padding:2%;
@@ -32,5 +33,3 @@ h1 {
     padding-left: 30%;
     padding-right:30%;
 }
-for top-ish
-    font-family: 'Nanum Pen Script', cursive;
