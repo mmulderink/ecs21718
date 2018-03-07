@@ -1,7 +1,7 @@
 body {
     padding: 0.25%;
     background: #8ee4af;
-    font-family: 'Eczar', serif;
+    font-family: 'Bowlby One SC', cursive;
 }
 .navbar {
     opacity: 0.6;
@@ -26,10 +26,11 @@ h1 {
 }
 #top-ish {
     background: #EDF5E1;
-    font-family: 'Nanum Pen Script', cursive;
 }
 #demo {
     background: #379683; 
     padding-left: 30%;
     padding-right:30%;
 }
+for top-ish
+    font-family: 'Nanum Pen Script', cursive;

@@ -11,6 +11,8 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Pacifico" rel="stylesheet">
         <style>
             body {
                 background: #8ee4af;
@@ -19,6 +21,9 @@
             #top-ish {
                 background: #EDF5E1;
                 font-family: 'Nanum Pen Script', cursive;
+            }
+            .alert {
+                background: #FFFFFF;
             }
             #demo {
                 background: #379683; 
@@ -47,23 +52,24 @@
         </div>
         <div class="row" id="top-ish">
             <div class="col-lg-2">
-                <button data-toggle="collapse" data-target="#cool">CLICK for photo!</button>
+                <button data-toggle="collapse" data-target="#cool"><h2>CLICK for photo!</h2></button>
             </div>
             <div id= "cool" class="collapse">
                 <img src="https://img1.etsystatic.com/212/1/9625106/il_340x270.1433260943_6eju.jpg" class="rounded" alt="Cinque Terre">
             </div>
             <div id="collapse" class="col-lg-10">
-                <h1>About Me</h1>
-                <h5>I am 14 years old and go to Lane Tech High School.
+                <h1><b>About Me</b></h1>
+                <h3>I am 14 years old and go to Lane Tech High School.
                 If you want to see my schedule, <a href="https://mmulderink.github.io/ecs21718/HTML/table1.html">click here.</a>
                 This is my html final project for Exploring Computer Science.
                 I like to do sports (including track, cross country, and snowboarding) along with taking trips.
-                Explore the site to see more.</h5>
+                Explore the site to see more.</h3>
             </div>
         </div>
         <br>
-        <div class="alert alert-success">
-            <b>Congratulations!</b> You made it to the site!
+        <div id= "top-ish" class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <h3><b>Congratulations!</b> You made it to the site!</h3>
         </div>
         <div id="demo" class="carousel slide" data-ride="carousel">
               <ul class="carousel-indicators">
